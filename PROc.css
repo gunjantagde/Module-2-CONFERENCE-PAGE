@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #e2e8e3;
+}
+
+/* Navbar */
+nav {
+    background: #42598b;
+    color: rgb(196, 197, 157);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 10px rgba(103, 152, 116, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(240, 247, 249);
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: rgb(126, 126, 110);
+}
+
+/* ID Selector */
+#hero {
+    text-align: center;
+    padding: 60px;
+    background: linear-gradient(to right, #26563e, #3db26e);
+    color: white;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    margin: 20px;
+    background: rgb(133, 67, 124);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #171d1a;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #38827a;
+    color: white;
+}
+
+/* Class Selector */
+.speaker-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.speaker-card {
+    background: #56773c;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(151, 93, 118, 0.15);
+}
+
+.speaker-card:hover {
+    transform: translateY(-8px);
+    background: #4ca06f;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, select, button {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #875191;
+}
+
+button {
+    background: #094a2f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #18644a;
+}
+
+/* Video */
+iframe {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
